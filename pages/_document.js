@@ -17,7 +17,7 @@ class MyDocument extends Document {
           name="google-site-verification"
           content="l7GATULSOkNYPGYElSPgRQWj89aBsHL55tgWJWoZFKA"
         />
-        <link rel="icon" href="%PUBLIC_URL%/favicon.png" />
+        <link rel="icon" href="/favicon.png" />
         <body>
           <Main />
           <NextScript />
