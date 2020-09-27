@@ -1,7 +1,7 @@
 {
     "apps": [
         {
-            "name": "moandv.com",
+            "name": "rabbit",
             "script": "yarn",
             "args" : "start",
             "interpreter": "/bin/bash",
