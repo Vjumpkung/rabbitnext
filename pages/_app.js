@@ -1,4 +1,4 @@
-import "../styles/bootstrap.min.css"
+import "../styles/styles.pure.css"
 import "../styles/carousel.min.css"
 import "../styles/home.css"
 import "../styles/index.css"
