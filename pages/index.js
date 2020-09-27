@@ -152,7 +152,7 @@ export default function Home() {
                 />
                 <img
                   src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4NTMgNDgwIj48ZmlsdGVyIGlkPSJiIj48ZmVHYXVzc2lhbkJsdXIgc3RkRGV2aWF0aW9uPSIxMiIgLz48L2ZpbHRlcj48cGF0aCBmaWxsPSIjYTVhNWEyIiBkPSJNMCAwaDg1M3Y0NzlIMHoiLz48ZyBmaWx0ZXI9InVybCgjYikiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDEuNyAxLjcpIHNjYWxlKDMuMzMyMDMpIiBmaWxsLW9wYWNpdHk9Ii41Ij48ZWxsaXBzZSBmaWxsPSIjMTUxZTQ1IiBjeD0iMTg3IiBjeT0iNTEiIHJ4PSIyNCIgcnk9IjI3Ii8+PGVsbGlwc2UgZmlsbD0iI2NkZDBjYyIgY3g9Ijc5IiByeD0iODQiIHJ5PSI4NCIvPjxlbGxpcHNlIGZpbGw9IiM3ZDYwNGIiIHJ4PSIxIiByeT0iMSIgdHJhbnNmb3JtPSJtYXRyaXgoLjczNjkgMTQuMDgxNzcgLTE1OC4zMTMxNyA4LjI4NDQzIDE0Mi43IDEzOC4yKSIvPjxlbGxpcHNlIGZpbGw9IiMyZTMwNDEiIGN4PSIxMjEiIGN5PSI4MiIgcng9IjE3IiByeT0iMTUiLz48ZWxsaXBzZSBmaWxsPSIjZDNkNmRlIiByeD0iMSIgcnk9IjEiIHRyYW5zZm9ybT0ibWF0cml4KDYxLjI5NTE5IDkuODE4MjEgLTMuMDY2MzUgMTkuMTQzMjcgMjA4IDguMykiLz48ZWxsaXBzZSBmaWxsPSIjY2VjZmNkIiByeD0iMSIgcnk9IjEiIHRyYW5zZm9ybT0ibWF0cml4KC0zLjE4MzAzIDE5Ljc3ODc5IC0zOC4zMzMzNiAtNi4xNjkwNSA3OCAxMTMuNSkiLz48cGF0aCBkPSJNNzcgMTU5bC0xNC0yMCA4NiA0eiIvPjxlbGxpcHNlIGZpbGw9IiM3YTgzODUiIGN4PSIyMzkiIGN5PSIxMTYiIHJ4PSI2MyIgcnk9IjMwIi8+PC9nPjwvc3ZnPg=="
-                  data-src="../public/image/embroidery.jpg"
+                  data-src="../public/image/Embroidery.jpg"
                   alt="งานปัก"
                   className="img-fluid center spaceonbottom lazyload blur-up"
                   width="632"
