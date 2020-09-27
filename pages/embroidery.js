@@ -1,11 +1,7 @@
-import React, { useEffect } from "react";
 import Layout from "../components/Layout";
 import SEO from "../components/seo"
 import "lazysizes"
 const Embroidery = () => {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
   return (
     <Layout>
       <SEO/>

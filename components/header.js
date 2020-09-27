@@ -1,4 +1,3 @@
-import React from "react";
 import dynamic from 'next/dynamic'
 const WebHeader = dynamic(() => import('./webheader'));
 const MobileHeader = dynamic(() => import('./mbheader'));
