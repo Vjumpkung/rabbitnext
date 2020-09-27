@@ -1,0 +1,19 @@
+.h1home {
+    text-align: center; font-size: xx-large;
+}
+#lazyheader {
+    height: 88px;
+    width: 1200px;
+}
+#lazyfooter {
+    height: 561.84px;
+    width: 100%;
+}
+#lazycontent {
+    height: 5919.67px;
+    width: 100%;
+}
+.mx-auto {
+    margin-right: auto!important;
+    margin-left: auto!important
+}

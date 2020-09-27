@@ -1,0 +1,11 @@
+{
+    "apps": [
+        {
+            "name": "moandv.com",
+            "script": "yarn",
+            "args" : "start",
+            "interpreter": "/bin/bash",
+            "exec_mode": "fork"
+        }
+    ]
+  }
