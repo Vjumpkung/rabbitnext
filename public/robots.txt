@@ -5,4 +5,4 @@ Disallow: /DST/
 Disallow: /embroidery/
 Disallow: /blockscreen/
 
-Sitemap: https://www.rabbitsstore.com/sitemap.xml
+Sitemap: https://rabbitsstore.com/sitemap.xml
