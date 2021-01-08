@@ -18,6 +18,7 @@ const DST = () => {
                 data-src="../public/image/DSTbanner.jpg"
                 class="img-fluid centerimg lazyload blur-up"
                 alt="DST บล๊อกเดียวล้านสี"
+                loading="lazy"
               />
             </picture>
           </div>

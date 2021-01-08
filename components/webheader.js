@@ -17,40 +17,40 @@ const WebHeader = () => (
             />
           </a>
         </div>
-        <div className="col-md-auto ml-auto">
-          <ul className="navbar-nav justify-content-end ">
+        <div className="col-md-auto ml-auto justify-content-end">
+          <ul className="navbar-nav">
             <li className="nav-item">
               <h5 className="nav-link">
                 <ActiveLink href="/" activeClassName="active">
-                  <a className="text-decoration-none nav-link">หน้าแรก</a>
+                  <a className="text-decoration-none nav-link active">หน้าแรก</a>
                 </ActiveLink>
               </h5>
             </li>
             <li className="nav-item">
               <h5 className="nav-link active">
                 <ActiveLink href="/DTG" activeClassName="active">
-                  <a className=" text-decoration-none nav-link">DTG</a>
+                  <a className=" text-decoration-none nav-link active">DTG</a>
                 </ActiveLink>
               </h5>
             </li>
             <li className="nav-item">
               <h5 className="nav-link">
                 <ActiveLink href="/DST" activeClassName="active">
-                  <a className="text-decoration-none nav-link "> DST</a>
+                  <a className="text-decoration-none nav-link active"> DST</a>
                 </ActiveLink>
               </h5>
             </li>
             <li className="nav-item">
               <h5 className="nav-link">
                 <ActiveLink href="/blockscreen" activeClassName="active">
-                  <a className="text-decoration-none nav-link">Block Screen</a>
+                  <a className="text-decoration-none nav-link active">Block Screen</a>
                 </ActiveLink>
               </h5>
             </li>
             <li className="nav-item">
               <h5 className="nav-link">
                 <ActiveLink href="/embroidery" activeClassName="active">
-                  <a className="text-decoration-none nav-link">Embroidery</a>
+                  <a className="text-decoration-none nav-link active">Embroidery</a>
                 </ActiveLink>
               </h5>
             </li>

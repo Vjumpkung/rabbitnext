@@ -12,10 +12,10 @@ export default function Home() {
         <Carousel autoPlay showArrows={false} infiniteLoop showThumbs={false}>
           <div>
             <picture>
-              <source media="(max-width: 899px)" type="image/webp" srcset="../public/image/webp/mobilebanner.webp"/>
-              <source media="(max-width: 899px)" srcset="../public/image/mobilebanner1.jpg"/>
-              <source media="(min-width: 900px)" type="image/webp" srcset="../public/image/webp/banner1.webp"/>
-              <source media="(min-width: 900px)" srcset="../public/image/banner1.jpg"/>
+              <source media="(max-width: 899px)" type="image/webp" srcSet="../public/image/webp/mobilebanner.webp"/>
+              <source media="(max-width: 899px)" srcSet="../public/image/mobilebanner1.jpg"/>
+              <source media="(min-width: 900px)" type="image/webp" srcSet="../public/image/webp/banner1.webp"/>
+              <source media="(min-width: 900px)" srcSet="../public/image/banner1.jpg"/>
               <img
                 className="d-block w-100 img-fluid"
                 src="../public/image/banner1.jpg"
@@ -28,7 +28,7 @@ export default function Home() {
           <div>
             <picture>
               <source
-                data-srcset="../public/image/webp/banner.webp"
+                data-srcSet="../public/image/webp/banner.webp"
                 type="image/webp"
               />
               <img
@@ -56,7 +56,7 @@ export default function Home() {
             <div className="col-md-6">
               <picture>
                 <source
-                  srcset="../public/image/webp/dtg.webp"
+                  srcSet="../public/image/webp/dtg.webp"
                   type="image/webp"
                 />
                 <img
@@ -79,7 +79,7 @@ export default function Home() {
             <div className="col-md-6">
               <picture>
                 <source
-                  srcset="../public/image/webp/dst.webp"
+                  srcSet="../public/image/webp/dst.webp"
                   type="image/webp"
                 />
                 <img
@@ -125,7 +125,7 @@ export default function Home() {
             <div className="col-md-6">
               <picture>
                 <source
-                  data-srcset="../public/image/webp/silkscreen.webp"
+                  data-srcSet="../public/image/webp/silkscreen.webp"
                   type="image/webp"
                 />
                 <img
@@ -147,7 +147,7 @@ export default function Home() {
             <div className="col-md-6">
               <picture>
                 <source
-                  data-srcset="../public/image/webp/embroidery.webp"
+                  data-srcSet="../public/image/webp/embroidery.webp"
                   type="image/webp"
                 />
                 <img

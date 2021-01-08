@@ -18,6 +18,7 @@ const Blockscreen = () => {
                 data-src="../public/image/block01.jpg"
                 class="img-fluid centerimg lazyload blur-up"
                 alt="block1"
+                loading="lazy"
               />
             </picture>
             <picture>
@@ -30,6 +31,7 @@ const Blockscreen = () => {
                 data-src="../public/image/block02.jpg"
                 class="img-fluid centerimg lazyload blur-up"
                 alt="block1"
+                loading="lazy"
               />
             </picture>
           </div>

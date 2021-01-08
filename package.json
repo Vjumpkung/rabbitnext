@@ -11,6 +11,7 @@
     "start": "serve out"
   },
   "dependencies": {
+    "@popperjs/core": "^2.5.3",
     "lazysizes": "^5.2.2",
     "lodash.memoize": "^4.1.2",
     "next": "9.5.3",

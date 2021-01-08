@@ -19,6 +19,7 @@ const Embroidery = () => {
                 data-src="../public/image/polo.jpg"
                 class="img-fluid centerimg lazyload blur-up"
                 alt="งานโปโล"
+                loading="lazy"
               />
             </picture>
           </div>
@@ -36,6 +37,7 @@ const Embroidery = () => {
                 data-src="../public/image/polo2.jpg"
                 class="img-fluid centerimg lazyload blur-up"
                 alt="งานโปโล"
+                loading="lazy"
               />
             </picture>
           </div>

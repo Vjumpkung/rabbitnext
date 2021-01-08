@@ -34,6 +34,9 @@ class MyDocument extends Document {
           content="l7GATULSOkNYPGYElSPgRQWj89aBsHL55tgWJWoZFKA"
         />
         <link rel="icon" href="/favicon.png" />
+        <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com"></link>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js" integrity="sha512-ubuT8Z88WxezgSqf3RLuNi5lmjstiJcyezx34yIU2gAHonIi27Na7atqzUZCOoY4CExaoFumzOsFQ2Ch+I/HCw==" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha512-lmArColmgJ0LRo8c6rZwAhB3mVVSFSsrpqOrmtXMgOFYu8VOwdxTliXrHYdsdmututXwD0Xc1GiGvZlHgNAh4g==" crossorigin="anonymous"></script>
         <body>
           <Main />
           <NextScript />

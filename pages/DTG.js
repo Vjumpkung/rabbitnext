@@ -18,6 +18,7 @@ const DTG = () => {
                 data-src="../public/image/order.jpg"
                 className="img-fluid lazyload blur-up"
                 alt="สั่งซื้อเสื้อ"
+                loading="lazy"
               />
             </picture>
           </div>
@@ -34,6 +35,7 @@ const DTG = () => {
                 data-src="../public/image/size1.jpg"
                 className="img-fluid lazyload blur-up"
                 alt="เสื้อผู้ใหญ่"
+                loading="lazy"
               />
             </picture>
           </div>
@@ -50,6 +52,7 @@ const DTG = () => {
                 data-src="../public/image/size2.jpg"
                 className="img-fluid lazyload blur-up"
                 alt="เสื้อเด็ก"
+                loading="lazy"
               />
             </picture>
           </div>
@@ -66,6 +69,7 @@ const DTG = () => {
                 data-src="../public/image/socialrbs.jpg"
                 className="img-fluid lazyload blur-up"
                 alt="มาร่วมงานกับเรา"
+                loading="lazy"
               />
             </picture>
           </div>

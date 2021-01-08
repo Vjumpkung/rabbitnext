@@ -4,5 +4,9 @@ Disallow: /DTG/
 Disallow: /DST/
 Disallow: /embroidery/
 Disallow: /blockscreen/
+Disallow: /DTG
+Disallow: /DST
+Disallow: /embroidery
+Disallow: /blockscreen
 
 Sitemap: https://rabbitsstore.com/sitemap.xml

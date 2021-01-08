@@ -6,16 +6,20 @@ const Footer = () => {
         <div className="row spaceonbottom">
           <div className="col-4">
             <div className="center">
-              <a href="https://www.google.com/maps/place/Rabbits+Store/@13.773695,100.631823,15z/data=!4m5!3m4!1s0x0:0xb0ce41b2b45e9e01!8m2!3d13.7729449!4d100.6318229?hl=en-US">
-                <img
-                  data-src="../public/image/map.png"
-                  width="300"
-                  height="200"
-                  className="lazyload centerimg blur-up"
-                  src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyOTggMTk4Ij48ZmlsdGVyIGlkPSJiIj48ZmVHYXVzc2lhbkJsdXIgc3RkRGV2aWF0aW9uPSIxMiIgLz48L2ZpbHRlcj48cGF0aCBmaWxsPSIjZThlNmU3IiBkPSJNMCAwaDI5OHYxOTdIMHoiLz48ZyBmaWx0ZXI9InVybCgjYikiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC42IC42KSBzY2FsZSgxLjE2NDA2KSIgZmlsbC1vcGFjaXR5PSIuNSI+PHBhdGggZmlsbD0iIzIzMjkxMiIgZD0iTTEyIDExN2gzMXYzN0gxMnoiLz48cGF0aCBmaWxsPSIjZTAwMDAwIiBkPSJNMTE5IDY3aDIwdjI1aC0yMHoiLz48ZWxsaXBzZSBmaWxsPSIjZmZmIiByeD0iMSIgcnk9IjEiIHRyYW5zZm9ybT0icm90YXRlKC04My41IDkyLjIgLTY5LjMpIHNjYWxlKDQwLjE4NTU0IDU4LjkyODExKSIvPjxlbGxpcHNlIGZpbGw9IiM3Mzc2NzUiIHJ4PSIxIiByeT0iMSIgdHJhbnNmb3JtPSJtYXRyaXgoLjA4OTM2IDQuMDIwNCAtMzYuODY2OTYgLjgxOTQgNTQgMjMuNCkiLz48ZWxsaXBzZSBmaWxsPSIjZDk2NjYyIiBjeD0iMTcwIiBjeT0iNzgiIHJ4PSI0NyIgcnk9IjQiLz48cGF0aCBmaWxsPSIjZGMwZTAwIiBkPSJNMTQyIDc4LjVsLTEyLjQgMTEuNkwxMTYgNzUuNWwxMi40LTExLjZ6Ii8+PGVsbGlwc2UgZmlsbD0iI2Q0ZDhkYSIgY3g9IjU0IiBjeT0iMTY5IiByeD0iMjE0IiByeT0iMjAiLz48ZWxsaXBzZSBmaWxsPSIjZmVmZmZjIiByeD0iMSIgcnk9IjEiIHRyYW5zZm9ybT0ibWF0cml4KDYyLjg1MTkgLTQuMzAyNyAyLjE1NjYyIDMxLjUwMjkzIDIwNyAxMjkuNSkiLz48L2c+PC9zdmc+"
-                  alt="map"
-                />
-              </a>
+            <div class="gmap_canvas center">
+            <iframe
+              width="300"
+              height="200"
+              id="gmap_canvas"
+              data-src="https://maps.google.com/maps?q=rabbitsstore&t=&z=15&ie=UTF8&iwloc=&output=embed"
+              frameborder="0"
+              scrolling="no"
+              marginheight="0"
+              marginwidth="0"
+              className="lazyload"
+              loading="lazy"
+            ></iframe>
+          </div>
             </div>
           </div>
           <div className="col-md-4">
@@ -34,16 +38,16 @@ const Footer = () => {
           </div>
           <div className="col-md-4">
             <h4>Contacts</h4>
-            <a href="https://www.facebook.com/rabbitsstore/">
-              <img
-                data-src="../public/image/facebook.png"
-                width="298"
-                height="70"
-                className="lazyload centerimg blur-up"
-                src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyOTggNzEiPjxmaWx0ZXIgaWQ9ImIiPjxmZUdhdXNzaWFuQmx1ciBzdGREZXZpYXRpb249IjEyIiAvPjwvZmlsdGVyPjxwYXRoIGZpbGw9IiM1ZjU0NWQiIGQ9Ik0wIDBoMjk4djY5SDB6Ii8+PGcgZmlsdGVyPSJ1cmwoI2IpIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSguNiAuNikgc2NhbGUoMS4xNjQwNikiIGZpbGwtb3BhY2l0eT0iLjUiPjxlbGxpcHNlIGZpbGw9IiNmZmY4ZjciIGN4PSIyMiIgY3k9IjMyIiByeD0iMTI1IiByeT0iMjEiLz48ZWxsaXBzZSByeD0iMSIgcnk9IjEiIHRyYW5zZm9ybT0icm90YXRlKDI0IDUxLjMgNTEzLjkpIHNjYWxlKDkyLjU1NDA5IDQ4LjQzNDEyKSIvPjxlbGxpcHNlIGZpbGw9IiMwMDA0MDQiIGN4PSI4MiIgcng9IjMyIiByeT0iMzIiLz48ZWxsaXBzZSBmaWxsPSIjZmZmIiBjeD0iMzAiIGN5PSIyOCIgcng9IjI1IiByeT0iMjUiLz48cGF0aCBkPSJNLTE0IDIyTDYtNXY4MHoiLz48ZWxsaXBzZSBmaWxsPSIjZmY5MDg4IiBjeD0iMTI1IiBjeT0iNTkiIHJ4PSI0MCIgcnk9IjE2Ii8+PGVsbGlwc2UgZmlsbD0iIzAwMDAwZSIgY3g9IjIyNSIgcng9IjU2IiByeT0iNTYiLz48ZWxsaXBzZSBjeD0iOTMiIGN5PSIyNiIgcng9IjQ3IiByeT0iNCIvPjwvZz48L3N2Zz4="
-                alt="facebook"
-              />
-            </a>
+            <iframe
+            data-src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Frabbitsstore&tabs&width=300&height=100&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId"
+            width="300"
+            height="100"
+            scrolling="no"
+            frameBorder="0"
+            allowtransparency="true"
+            allow="encrypted-media"
+            className="center lazyload facebookiframe"
+          ></iframe>
             <h4 className="text-success centertext bold">LINE</h4>
             <a href="http://line.me/ti/p/@rbs2017" className="centerimg">
               <img
